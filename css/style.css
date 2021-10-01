@@ -6,6 +6,7 @@
 }
 
 #main-footer{
+    margin: 50px;
     text-align: center;
     font-size: 18px;
 }
@@ -23,4 +24,14 @@
 }
 .fab:hover{
     color: grey;
+}
+.end{
+    margin: 50px;
+}
+
+.error{
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
 }
