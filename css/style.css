@@ -9,3 +9,18 @@
     text-align: center;
     font-size: 18px;
 }
+
+#my-form h3{
+    text-align: center;
+}
+
+.footer-text{
+    font-size: small;
+}
+
+.fab {
+    margin:10px 3px;
+}
+.fab:hover{
+    color: grey;
+}
