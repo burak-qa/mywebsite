@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./scss/style.scss">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!-- Compiled and minified CSS -->
@@ -27,7 +33,7 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">by Burak</a>
+            <a href="#" class="brand-logo">Logo</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Training</a></li>
@@ -46,10 +52,10 @@
     
 
     <header id="main-header">
-        <h1>My Website</h1>
+        <h1>Code Academy</h1>
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-            <button type="button" class="btn btn-danger">About Me</button>
-            <button type="button" class="btn btn-warning">My Works</button>
+            <button type="button" class="btn btn-danger">About Us</button>
+            <button type="button" class="btn btn-warning">Our Works</button>
             <button type="button" class="btn btn-success">Contact</button>
         </div>
     </header>
@@ -75,7 +81,7 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia? <code>Lorem, ipsum.</code>Lorem ipsum dolor sit amet.
-                                <a href="info.html">Read More</a>
+                                <a href="#">Read More</a>
                             </div>
                         </div>
                 </div>
@@ -87,7 +93,7 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia? <code>Lorem, ipsum.</code>Lorem ipsum dolor sit amet.
-                            <a href="info.html">Read More</a>
+                            <a href="#">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +105,7 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia? <code>Lorem, ipsum.</code>Lorem ipsum dolor sit amet.
-                            <a href="info.html">Read More</a>
+                            <a href="#">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -120,17 +126,39 @@
                 <div class="card text-center">
                     <div class="card-body">
                         <h5 class="card-title">Special Courses</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut fugiat ut, natus fugit et minima aspernatur eius omnis culpa perspiciatis ratione consectetur eos, itaque voluptatum blanditiis, quam inventore repellat? Nobis.</p>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut fugiat ut, natus fugit et minima aspernatur eius omnis culpa perspiciatis ratione consectetur eos, itaque voluptatum blanditiis, quam inventore repellat? Nobis. We are waiting for you!</p>
                         <a href="#" class="btn btn-primary">Go courses</a>
                     </div>
                 </div>
             </div>
         </div>
+    <section class="container">
+        <form id="my-form">
+            <h3>Join Us</h3>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </form>
 
+        <ul id="users"></ul>
 
-
+    </section>    
     <footer id="main-footer">
-        <small>Copyrigth &copy; 2021, <a href="https://burak2202.github.io/Language-School/">My Website</a> </small>
+        <div class="footer-text">Copyrigth &copy; 2021, <a href="https://burak2202.github.io/Language-School/">My Website</a> </div>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
     </footer>
     
     <!--javascript-->
